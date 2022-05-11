@@ -1,9 +1,9 @@
 import React from "react";
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
 export default function Navbar() {
   let Links = [
-    { name: "Home", link: "/" },
+    { name: "Home", link: "/Home" },
     { name: "About", link: "/" },
     { name: "Projects", link: "/" },
     { name: "Contact", link: "/" },
@@ -15,6 +15,7 @@ export default function Navbar() {
           <ul>
             {Links.map((Link) => (
               <li>
+                 {/* <Link to={Link.link}>{Link.name}</Link> */}
                 <a href={Link.link}>{Link.name}</a>
               </li>
             ))}
@@ -24,3 +25,4 @@ export default function Navbar() {
     </div>
   );
 }
+/* <Link to= '/'>Home</Link> */
