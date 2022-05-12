@@ -1,28 +1,27 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from 'react-scroll';
 
 export default function Navbar() {
+  // const [nav, setNav] = useState(false);
+  // const handleClickEvent = () => setNav(!nav);
   let Links = [
     { name: "Home", link: "/Home" },
-    { name: "About", link: "/" },
-    { name: "Projects", link: "/" },
-    { name: "Contact", link: "/" },
+    { name: "About", link: "/About" },
+    { name: "Projects", link: "/Projects" },
+    { name: "Contact", link: "/Contact" },
   ];
   return (
-    <div className="shadow-md w-full fixed top-0 left-0">
-      <div className="md:flex bg-blue-900 py-4 text-white items-center justify-between">
-        <nav>
-          <ul>
-            {Links.map((Link) => (
-              <li>
-                 {/* <Link to={Link.link}>{Link.name}</Link> */}
-                <a href={Link.link}>{Link.name}</a>
-              </li>
+    <div className="w-full fixed flex justify-between items-center px-4 py-5 bg-blue-900 text-white">
+        <h1 className="flex text-3xl font-serif italic justify-start font-semibold text-cyan-100">Lamor Odingo</h1>
+      <div>
+          <ul className="hidden md:flex">
+            {Links.map((Linking) => (
+                 <Link to={Linking.name} smooth={true} duration={500} className="px-5">
+                   <li className="hover:text-[#ed6a5a] hover:animate-pulse">{Linking.name}</li>
+                 </Link>
             ))}
           </ul>
-        </nav>
       </div>
     </div>
   );
 }
-/* <Link to= '/'>Home</Link> */
