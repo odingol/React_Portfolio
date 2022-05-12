@@ -31,7 +31,7 @@ export default function Navbar() {
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
     
-      <div className="hidden lg:flex fixed flex-col top-[35%] left-[95%] px-5">
+      <div className="hidden lg:flex fixed flex-col top-[60%] left-[95%] px-5">
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center mr-[100px] hover:ml-[-100px] duration-300 hover:bg-blue-600 text-cyan-100 hover:text-gray-300 px-3">
             <a
