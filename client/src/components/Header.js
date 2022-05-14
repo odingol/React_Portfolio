@@ -17,7 +17,7 @@ export default function Header() {
         Below you will view the list of work I have completed on my journey to become a Web Developer and the best ways to reach out to me. Enjoy!
         </p>
         <div>
-            <button className="animate-float bg-blue-200 px-10 py-3 text-xl uppercase mt-10 rounded-lg">View My Work</button>
+            <button className="animate-bounce hover:animate-none hover:bg-blue-300 bg-blue-200 px-10 py-3 text-xl uppercase mt-10 rounded-lg">View My Work</button>
         </div>
       </div>
     </div>

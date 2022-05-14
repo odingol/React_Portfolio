@@ -9,33 +9,33 @@ module.exports = {
   float: {
     '0%': {
       transform: "translateY(0px)",
-      animationTimeFunction: "ease-in-out"
+      animationTimingFunction: "ease-in-out",
     },
     '50%': {
       transform: "translateY(-20px)",
-      animationTimeFunction: "ease-in-out"
+      animationTimingFunction: "ease-in-out",
     },
     '100%': {
       transform: "translateY(0px)",
-      animationTimeFunction: "ease-in-out"
+      animationTimingFunction: "ease-in-out",
     } 
   },
   refloat: {
     '0%': {
       transform: "translateY(-20px)",
-      animationTimeFunction: "ease-in-out"
+      animationTimingFunction: "ease-in-out",
     },
     '50%': {
-      transform: "translateY(20px)",
-      animationTimeFunction: "ease-in-out"
+      transform: "translateY(0px)",
+      animationTimingFunction: "ease-in-out",
     },
     '100%': {
       transform: "translateY(-20px)",
-      animationTimeFunction: "ease-in-out"
+      animationTimingFunction: "ease-in-out",
     } 
   },
   theme: {
     extend: {},
   },
   plugins: [],
-}
+};
