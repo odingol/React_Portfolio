@@ -13,13 +13,15 @@ export default function Navbar() {
     { name: "Contact", link: "/Contact" },
   ];
   return (
-    <div className="w-full fixed flex justify-between items-center px-4 py-5 bg-blue-900 text-white">
+    <div className="w-full fixed flex justify-between items-center px-4 py-5 bg-blue-900 text-white z-20">
         <h1 className="flex text-3xl font-serif italic justify-start font-semibold text-cyan-100">Lamor Odingo</h1>
-      <div>
+      <div to="Home">
           <ul className="hidden md:flex">
             {Links.map((Linking) => (
-                 <Link to={Linking.name} smooth={true} duration={500} className="px-5">
-                   <li className="hover:text-[#ed6a5a] hover:animate-pulse">{Linking.name}</li>
+                 <Link onClick={handleClickEvent} to={Linking.name} smooth={true} duration={500} className="px-5">
+                   <button>
+                   <li className="hover:text-[#ed6a5a] hover:animate-pulse" cursor-pointer>{Linking.name}</li>
+                   </button>
                  </Link>
             ))}
           </ul>
