@@ -6,7 +6,7 @@ export default function Projects(props) {
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full flex justify-center py-10">
           <div className="sm:text-right pb-8 pl-4">
-            <p className="text-4xl font-bold inline border-b-4 border-cyan-100">
+            <p className="text-4xl font-bold inline border-b-4 text-orange-200 border-cyan-100">
               {props.title}
             </p>
           </div>

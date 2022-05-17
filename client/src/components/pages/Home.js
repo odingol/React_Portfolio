@@ -1,9 +1,7 @@
 import React, {useState} from "react";
-// For scrolling to my Projects section
-import { Link } from 'react-scroll';
 
 
-export default function Header() {
+export default function Home() {
   const [intro, setIntro] = useState({
     name: "Lamor Odingo",
     position: "I am a Front End Developer",
@@ -11,7 +9,7 @@ export default function Header() {
   })
 
   return (
-    <div name="Home" className="w-full h-screen flex justify-center items-center">
+    <div name="Home" className="w-full h-screen flex justify-center items-center bg-indigo-600">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-white">Hello World! My name is</p>
