@@ -11,38 +11,30 @@ export default function Projects(props) {
             </p>
           </div>
         </div>
-        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-4">
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src="" alt="icon" />
-            <p className="my-4">Project 1</p>
+        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-4 px-10">
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-blue-800">
+            <a href="https://taylor25et.github.io/Project-1-KrustyKrabs/" target="_blank" rel="noreferrer">
+            <img className="w-50" src="./img/project-1-img.jpg" alt="Krusty Krab icon" />
+            <p className="my-10 text-xl">Krusty Krab</p>
+            </a>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src="" alt="icon" />
-            <p className="my-4">Project 2</p>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-blue-800">
+            <a href="https://odingol.github.io/04-hw-web-api/develop/" target="_blank" rel="noreferrer">
+            <img className="w-50" src="./img/project-2-img.jpg" alt="Coding Quiz icon" />
+            <p className="my-10 text-xl">Coding Quiz</p>
+            </a>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src="" alt="icon" />
-            <p className="my-4">Project 3</p>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-blue-800">
+            <a href="https://odingol.github.io/06-hw-weather-dashboard/" target="_blank" rel="noreferrer">
+            <img className="w-50" src="./img/project-3-img.jpg" target="_blank" alt="Weather Dashboard icon" />
+            <p className="my-10 text-xl">Weather Dashboard</p>
+            </a>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src="" alt="icon" />
-            <p className="my-4">Project 4</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src="" alt="icon" />
-            <p className="my-4">Project 5</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src="" alt="icon" />
-            <p className="my-4">Project 6</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src="" alt="icon" />
-            <p className="my-4">Project 7</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src="" alt="icon" />
-            <p className="my-4">Project 7</p>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-blue-800 items-center">
+            <a href="https://travalotpj2.herokuapp.com/" target="_blank" rel="noreferrer">
+            <img className="w-full max-h-64" src="./img/project-4-img.jpg" target="_blank" alt="TravAlot icon" />
+            <p className="my-10 text-xl">TravAlot</p>
+            </a>
           </div>
         </div>
       </div>

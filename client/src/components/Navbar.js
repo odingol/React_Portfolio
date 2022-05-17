@@ -24,7 +24,7 @@ export default function Navbar({ currentPage, handlePageChange }) {
               </a>
             </li> */}
             <li className="hover:text-[#ed6a5a] hover:animate-pulse px-5">
-              <a href="#about" onClick={() => handlePageChange('Projects')} className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}>
+              <a href="#projects" onClick={() => handlePageChange('Projects')} className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}>
                 Projects
               </a>
             </li>

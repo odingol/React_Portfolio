@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 
 
-export default function Home() {
+export default function Home(currentPage, handlePageChange) {
   const [intro, setIntro] = useState({
     name: "Lamor Odingo",
     position: "I am a Front End Developer",
@@ -25,8 +25,10 @@ export default function Home() {
         <div>
             <button className="animate-bounce hover:animate-none hover:bg-blue-300 bg-blue-200 px-10 py-3 text-xl uppercase mt-10 rounded-lg">
               {/* Apply Link to Projects section HERE */}
+              <a href="#projects" onClick={() => handlePageChange('Projects')} className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}>
               View My Work
-              </button>
+              </a>
+            </button>
         </div>
       </div>
     </div>

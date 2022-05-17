@@ -8,10 +8,11 @@ import Contact from './pages/Contact';
 
 export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('Home');
+    const handlePageChange = (page) => setCurrentPage(page);
 
     const renderPage = () => {
         if (currentPage === 'Home') {
-            return <Home />;
+            return <Home currentPage = {currentPage} handlePageChange={handlePageChange}/>;
         }
         if (currentPage === "About") {
             return <About title={"About Me"} />
@@ -25,7 +26,6 @@ export default function PortfolioContainer() {
         return <Contact />
     };
 
-    const handlePageChange = (page) => setCurrentPage(page);
 
     return (
         <div>
