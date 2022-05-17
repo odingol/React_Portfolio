@@ -9,6 +9,7 @@ export default function Navbar() {
   let Links = [
     { name: "Home", link: "/Home" },
     { name: "About", link: "/About" },
+    { name: "Skills", link: "/Skills"},
     { name: "Projects", link: "/Projects" },
     { name: "Contact", link: "/Contact" },
   ];

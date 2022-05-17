@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar.js';
 import Header from './components/Header.js';
 import About from './components/About';
+import Projects from './components/Projects';
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Header />
       <About title={"About Me"} />
+      <Projects title={"My Projects"} />
     </div>
   );
 }
