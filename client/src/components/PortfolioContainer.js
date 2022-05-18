@@ -12,7 +12,7 @@ export default function PortfolioContainer() {
 
     const renderPage = () => {
         if (currentPage === 'Home') {
-            return <Home currentPage = {currentPage} handlePageChange={handlePageChange}/>;
+            return <Home currentPage ={currentPage} handlePageChange={handlePageChange} />;
         }
         if (currentPage === "About") {
             return <About title={"About Me"} />
