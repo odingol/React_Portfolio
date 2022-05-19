@@ -1,13 +1,13 @@
 import React from "react";
 import { FaRegEnvelope } from "react-icons/fa";
 
-export default function Contact() {
+export default function Contact(props) {
   return (
     <div name="Contact" className="w-full h-screen bg-indigo-600 text-white h-full">
       <div className="flex flex-col justify-center items-center w-full h-screen">
         <div className="flex flex-col items-center mt-32">
           <p className="text-4xl text-green-400 font-bold inline border-b-4 border-cyan-100">
-            Contact Me
+            {props.title}
           </p>
           <p className="pt-5 text-cyan-100 text-xl">
             Feel free to reach out to me and I look forward to hearing from you!
@@ -37,7 +37,7 @@ export default function Contact() {
               <textarea
                 className="bg-[#ccd6f6] p-2 text-black"
                 name="message"
-                rows="10"
+                rows="8"
                 placeholder="Message"
               ></textarea>
               <button className="text-purple-300 hover:text-white-300 font-bold border-gray-400 border-2 hover:bg-purple-600 hover:border-purple-300 px-4 py-3 my-8 mx-auto flex items-center">

@@ -23,7 +23,7 @@ export default function PortfolioContainer() {
         if (currentPage === "Projects") {
             return <Projects title={"My Projects"} />
         }
-        return <Contact />
+        return <Contact title={"Contact Me"} />
     };
 
 
