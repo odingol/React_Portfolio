@@ -1,12 +1,12 @@
-import React, {useState} from "react";
+import React from "react";
 
 
 export default function Home(currentPage, handlePageChange) {
-  const [intro, setIntro] = useState({
+  const intro = {
     name: "Lamor Odingo",
     position: "I am a Front End Developer",
     direction: "Below you will view the list of work I have completed on my journey to become a Web Developer and the best ways to reach out to me. Enjoy!"
-  })
+  }
 
   return (
     <div name="Home" className="w-full h-screen flex justify-center items-center bg-indigo-600">
