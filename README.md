@@ -4,8 +4,8 @@
     
 ```md
 AS A developer 
-I WANT to create a CMS-style blog site
-SO THAT users can users can publish articles, blog posts, and their thoughts and opinions
+I WANT to create a deployed React portfolio
+SO THAT employers can assess whether I am a good candidate for an open position
 ```
     
 ## Table of Contents
@@ -20,37 +20,27 @@ SO THAT users can users can publish articles, blog posts, and their thoughts and
 
  ## Usage
     
-This app is a CMS-style blog site  that functions similar to a Wordpress site. This allows developers can publish their blog posts and comment on other developers’ posts as well of their choosing. 
+This app is a React Portfolio...
 
-<br>The app is deployed on Heroku: 
+<br>The app is deployed on Netlify: 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://letstalktechh.herokuapp.com/)
+[Netlify Site](https://starlit-horse-40724c.netlify.app)
 
-<br>Here are a few screenshot's of the the application's functionality:
+<br>Here is an example of the the application's functionality:
 
-![Tech Blog Home](/public/img/home-demo.png) 
-<br>
-<br>
-
-![Tech Blog Comment](/public/img/comment-demo.png) 
-<br>
-<br>
-
-![Tech Blog Edit](/public/img/edit-demo.png) 
-<br>
-
-
+![React Portfolio](/public/img/home-demo.png) 
+ 
 <br><br>
     
 ## License 
-[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+[![License: ISC](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
     
     
-The license included for this project is under ISC
+The license included for this project is under MIT
     
     
 ## Contribute 
-[![Contribution: Suggestions](https://img.shields.io/badge/Contribution%20-Suggestions-4baaaa.svg)](https://github.com/odingol/letstalktech/issues)
+[![Contribution: Suggestions](https://img.shields.io/badge/Contribution%20-Suggestions-4baaaa.svg)](https://github.com/odingol/React_Portfolio/issues)
     
 Please click on the badge to report any issues if they exist
     
