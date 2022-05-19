@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
-export default function Navbar({ currentPage, handlePageChange }) {
+export default function Navbar() {
   return (
     <div className="w-full fixed flex justify-between items-center px-4 py-5 bg-blue-900 text-white z-20">
       <h1 className="flex text-3xl font-serif italic justify-start font-semibold text-cyan-100">
@@ -11,56 +11,16 @@ export default function Navbar({ currentPage, handlePageChange }) {
       </h1>
       <ul className="hidden md:flex">
         <li className="hover:text-[#ed6a5a] hover:animate-pulse px-5">
-          <a
-            href="#home"
-            onClick={() => handlePageChange("Home")}
-            className={currentPage === "Home" ? "nav-link active" : "nav-link"}
-          >
-            {" "}
-            {/* Navlink is from bootstrap just to see if it works */}
-            Home
-          </a>
+          <Link to="/">Home</Link>
         </li>
         <li className="hover:text-[#ed6a5a] hover:animate-pulse px-5">
-              <a href="#about" onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>
-                About
-              </a>
-            </li>
-        {/* <li className="hover:text-[#ed6a5a] hover:animate-pulse px-5">
-        <Link
-          to={{
-            pathname: "/about",
-            hash: "#about",
-            state: { fromDashboard: true }
-          }} >
-          About</Link>
-        </li> */}
-        {/* <li className="hover:text-[#ed6a5a] hover:animate-pulse px-5">
-              <a href="#skills" onClick={() => handlePageChange('Skills')} className={currentPage === 'Skills' ? 'nav-link active' : 'nav-link'}>
-                Skills
-              </a>
-            </li> */}
-        <li className="hover:text-[#ed6a5a] hover:animate-pulse px-5">
-          <a
-            href="#projects"
-            onClick={() => handlePageChange("Projects")}
-            className={
-              currentPage === "Projects" ? "nav-link active" : "nav-link"
-            }
-          >
-            Projects
-          </a>
+          <Link to="/about">About</Link>
         </li>
         <li className="hover:text-[#ed6a5a] hover:animate-pulse px-5">
-          <a
-            href="#contact"
-            onClick={() => handlePageChange("Contact")}
-            className={
-              currentPage === "Contact" ? "nav-link active" : "nav-link"
-            }
-          >
-            Contact
-          </a>
+          <Link to="/projects">Projects</Link>
+        </li>
+        <li className="hover:text-[#ed6a5a] hover:animate-pulse px-5">
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
 
