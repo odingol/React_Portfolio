@@ -1,13 +1,13 @@
 import React from "react";
 
-export default function Projects(props) {
+export default function Projects() {
   return (
     <div name="Projects" className="w-full h-screen bg-indigo-600 text-white pt-10">
       <div className="flex flex-col justify-center items-center w-full h-full p-15">
         <div className="max-w-[1000px] w-full flex justify-center py-5">
           <div className="sm:text-right pb-8 pl-4">
             <p className="text-4xl font-bold inline border-b-4 text-orange-200 border-cyan-100">
-              {props.title}
+              Projects
             </p>
           </div>
         </div>

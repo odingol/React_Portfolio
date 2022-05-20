@@ -1,8 +1,10 @@
 import React from "react";
 
-export default function About(props) {
-  const bio =
-    "One of the great things about being a developer is the ability to change a user's experience with just a few lines of code. By studying and writing code each week I learn something new that helps improve my job as a developer. If I get better, then users have a better experience.";
+export default function About() {
+  const section = {
+    title: "About Me",
+    bio: "One of the great things about being a developer is the ability to change a user's experience with just a few lines of code. By studying and writing code each week I learn something new that helps improve my job as a developer. If I get better, then users have a better experience."
+};
 
   return (
     <div name="About" className="w-full h-screen bg-blue-900 text-white">
@@ -10,7 +12,7 @@ export default function About(props) {
         <div className="max-w-[1000px] w-full flex justify-center py-10">
           <div className="sm:text-right pb-8 pl-4">
             <p className="text-4xl text-orange-300 font-bold inline border-b-4 border-cyan-100">
-              {props.title}
+              {section.title}
             </p>
           </div>
         </div>
@@ -19,7 +21,7 @@ export default function About(props) {
             <img src="./img/portfolio-bg-image.jpg" alt="Profile Headshot" />
           </div>
           <div className="text-2xl px-5 italic">
-            <p className="text-white">{bio}</p>
+            <p className="text-white">{section.bio}</p>
           </div>
         </div>
       </div>

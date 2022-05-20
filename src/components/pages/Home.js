@@ -1,7 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 
-export default function Home(currentPage, handlePageChange) {
+export default function Home() {
   const intro = {
     name: "Lamor Odingo",
     position: "I am a Front End Developer",
@@ -24,10 +25,7 @@ export default function Home(currentPage, handlePageChange) {
         </p>
         <div>
             <button className="animate-bounce hover:animate-none hover:bg-blue-300 bg-blue-200 px-10 py-3 text-xl uppercase mt-10 rounded-lg">
-              {/* Apply Link to Projects section HERE */}
-              <a href="#projects" onClick={() => handlePageChange('Projects')} className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}>
-              View My Work
-              </a>
+              <Link to="/projects">View My Work</Link>
             </button>
         </div>
       </div>
