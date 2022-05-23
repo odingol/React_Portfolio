@@ -20,17 +20,15 @@ SO THAT employers can assess whether I am a good candidate for an open position
 
  ## Usage
     
-This app is a React Portfolio...
+This app is a React-based Portfolio that summarizes the projects I have completed throughout my growth as a web developer. There are several routes in the application that will direct any user to view information about me or to explore some of the projects I have enjoyed completing.
 
 <br>The app is deployed on Netlify: 
 
 [Netlify Site](https://starlit-horse-40724c.netlify.app)
 
-<br>Here is an example of the the application's functionality:
+<br>Here is an example of the the application's functionality: <br>
 
-![React Portfolio](/public/img/home-demo.png) 
- 
-<br><br>
+![React Portfolio](/public/img/portfolio_v2_demo.gif) 
     
 ## License 
 [![License: ISC](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
