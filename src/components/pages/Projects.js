@@ -12,7 +12,7 @@ export default function Projects() {
           </div>
         </div>
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-1 px-14">
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-blue-800 max-h-90 m-3">
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-blue-800 max-h-90 m-4">
             <img className="w-50" src="./img/project-1-img.jpg" alt="Krusty Krab icon" />
             <p className="my-5 text-xl">Krusty Krab</p>
             <p className="my-3 text-xl hover:text-orange-300"><a href="https://animated-taffy-0b25b0.netlify.app" target="_blank" rel="noreferrer">Deployed Site</a></p>
@@ -24,23 +24,29 @@ export default function Projects() {
             <p className="my-3 text-xl hover:text-orange-300"><a href="https://lucent-cassata-212b1d.netlify.app" target="_blank" rel="noreferrer">Deployed Site</a></p>
             <p className="text-xl hover:text-orange-300"><a href="https://github.com/odingol/code-quiz" target="_blank" rel="noreferrer">Source Code</a></p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-blue-800 max-h-90 m-3">
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-blue-800 max-h-90 m-4">
             <img className="w-50" src="./img/project-3-img.jpg" target="_blank" alt="Weather Dashboard icon" />
             <p className="my-5 text-xl">Weather Dashboard</p>
             <p className="my-3 text-xl hover:text-orange-300"><a href="https://frabjous-tartufo-5698eb.netlify.app" target="_blank" rel="noreferrer">Deployed Site</a></p>
             <p className="text-xl hover:text-orange-300"><a href="https://github.com/odingol/weather-dashboard" target="_blank" rel="noreferrer">Source Code</a></p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-blue-800 items-center max-h-90 m-5">
-            <img className="w-full max-h-56" src="./img/project-4-img.jpg" target="_blank" alt="TravAlot icon" />
-            <p className="my-7 text-xl">TravAlot</p>
-            <p className="my-3 text-xl hover:text-orange-300"><a href="https://travalotpj2.herokuapp.com/" target="_blank" rel="noreferrer">Deployed Site</a></p>
-            <p className="text-xl hover:text-orange-300"><a href="https://github.com/odingol/TravAlot" target="_blank" rel="noreferrer">Source Code</a></p>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-blue-800 items-center m-4">
+            <img className="w-full max-h-56" src="./img/project-6-img.png" target="_blank" alt="LetsTalkTech icon" />
+            <p className="my-5 text-xl">Date-A-Base</p>
+            <p className="my-3 text-xl hover:text-orange-300"><a href="https://calm-hamlet-19238.herokuapp.com/" target="_blank" rel="noreferrer">Deployed Site</a></p>
+            <p className="my-4 text-xl hover:text-orange-300"><a href="https://github.com/odingol/Date-A-Base" target="_blank" rel="noreferrer">Source Code</a></p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-blue-800 items-center m-5">
-            <img className="w-full max-h-56" src="./img/project-5-img.png" target="_blank" alt="LetsTalkTech icon" />
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-blue-800 items-center max-h-90 m-4">
+            <img className="w-full max-h-56" src="./img/project-4-img.jpg" target="_blank" alt="TravAlot icon" />
+            <p className="my-4 text-xl">TravAlot</p>
+            <p className="my-4 text-xl hover:text-orange-300"><a href="https://travalotpj2.herokuapp.com/" target="_blank" rel="noreferrer">Deployed Site</a></p>
+            <p className="my-4 text-xl hover:text-orange-300"><a href="https://github.com/odingol/TravAlot" target="_blank" rel="noreferrer">Source Code</a></p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-blue-800 items-center m-4">
+            <img className="w-full h-56" src="./img/project-5-img.png" target="_blank" alt="LetsTalkTech icon" />
             <p className="my-5 text-xl">LetsTalkTech</p>
-            <p className="my-3 text-xl hover:text-orange-300"><a href="https://letstalktechh.herokuapp.com/" target="_blank" rel="noreferrer">Deployed Site</a></p>
-            <p className="text-xl hover:text-orange-300"><a href="https://github.com/odingol/letstalktech" target="_blank" rel="noreferrer">Source Code</a></p>
+            <p className="my-5 text-xl hover:text-orange-300"><a href="https://letstalktechh.herokuapp.com/" target="_blank" rel="noreferrer">Deployed Site</a></p>
+            <p className="my-3 text-xl hover:text-orange-300"><a href="https://github.com/odingol/letstalktech" target="_blank" rel="noreferrer">Source Code</a></p>
           </div>
         </div>
       </div>
