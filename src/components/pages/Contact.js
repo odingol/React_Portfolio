@@ -7,13 +7,13 @@ export default function Contact() {
     message: "Feel free to reach out to me. I look forward to hearing from you!" 
   }
   return (
-    <div name="Contact" className="w-full h-screen bg-indigo-600 text-white h-full">
+    <div name="Contact" className="w-full h-screen bg-indigo-600 text-white h-full px-7">
       <div className="flex flex-col justify-center items-center w-full h-screen">
         <div className="flex flex-col items-center mt-32">
           <p className="text-4xl text-green-400 font-bold inline border-b-4 border-cyan-100">
             {section.title}
           </p>
-          <p className="pt-5 text-cyan-100 text-xl">
+          <p className="pt-5 text-cyan-100 text-xl text-center">
             {section.message}
           </p>
           <div className="pt-10">
