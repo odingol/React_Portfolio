@@ -1,23 +1,25 @@
-import React from "react";
-// import PortfolioContainer from "./components/PortfolioContainer";
+import React, { Suspense, lazy } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from "./components/pages/Home";
-import About from "./components/pages/About";
-import Projects from "./components/pages/Projects";
-import Contact from "./components/pages/Contact";
-import Navbar from "./components/Navbar";
+
+const Navbar = lazy(() => import("./components/Navbar"));
+const Home = lazy(() => import("./components/pages/Home"));
+const About = lazy(() => import("./components/pages/About"));
+const Projects = lazy(() => import("./components/pages/Projects"));
+const Contact = lazy(() => import("./components/pages/Contact"));
 
 export default function App() {
   return (
     <div>
       <Router>
-        <Navbar />
+        <Suspense fallback={<div><h1>Loading...</h1></div>}>
+          <Navbar />
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route exact path="/about" element={<About />} />
             <Route exact path="/projects" element={<Projects />} />
             <Route exact path="/contact" element={<Contact />} />
           </Routes>
+        </Suspense>
       </Router>
     </div>
   );
